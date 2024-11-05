@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class LeveController : MonoBehaviour
 {
     #region Variables
-    [SerializeField] GameObject infoUI;
+    [SerializeField] public GameObject infoUI;
     private int level=0;
     #endregion 
     public void Start()
@@ -18,6 +18,18 @@ public class LeveController : MonoBehaviour
     {
         level=1;
         
+    }
+
+    public void ShowInfoUI()
+    {
+        if (infoUI != null)
+        {
+            infoUI.SetActive(true); // 顯示 UI
+        }
+        else
+        {
+            Debug.LogError("infoUI has not been assigned!");
+        }
     }
     public void BackButton()
     {
