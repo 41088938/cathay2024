@@ -9,6 +9,8 @@ TagManager:
   - WrongAnser
   - BoxZoomViewCamera
   - Dummy
+  - package
+  - vanInside
   layers:
   - Default
   - TransparentFX

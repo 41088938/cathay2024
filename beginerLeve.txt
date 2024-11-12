@@ -1,0 +1,20 @@
+begginer level:
+
+Excepted Quantity (REQ) Done
+Dry Ice with non-DG	Done
+Non-Radioactive DG->correct side is not ready	
+
+2 corr box done
+3 incorr box done
+random box selecting-> Suitable
+
+1-2 error ->missing Selection editing
+Missing Button-> MissingBar->working on
+		->box->debugging
+		->nonDG_Incorrect->not ready
+
+StageClera->basic done
+Data connection->working on
+anserShowing->not yet
+tips->not yet
+
